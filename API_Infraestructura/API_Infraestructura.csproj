@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API_Comun\API_Comun.csproj" />
+    <ProjectReference Include="..\API_Dominio\API_Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
