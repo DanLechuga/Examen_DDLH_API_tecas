@@ -35,6 +35,8 @@ namespace Examen_DDLH_API_tecas
             services.AddTransient<IRepositorioUsuarios, RepositorioUsuarios>();
             services.AddTransient<IRepositorioCuentas, RepositorioCuenta>();
             services.AddTransient<IRepositorioHistorial, RepositorioHistorial>();
+            services.AddTransient<IRepositorioReportesSemanales, RepositorioReportesSemanales>();
+            services.AddTransient<IServicioReportesSemanales, ServicioReportesSemanales>();
             services.AddTransient<IServicioHistorial, ServicioHistorial>();
             services.AddTransient<IValidacionUsuarios, ValidacionUsuarios>();
             services.AddTransient<IMovimientosCuentas, MovimientosCuentas>();
